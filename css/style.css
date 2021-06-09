@@ -1,0 +1,245 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    background: lightgrey;
+}
+body{
+    margin: 0;
+}
+.navClass{
+    background-color:  	#404040;
+    height: 50px;
+    margin:0;
+    padding-bottom: 0;
+}
+.navList{
+    float: right;
+    background-color: #404040;
+}
+
+.navList li{
+    margin-left: 10px;
+    margin-right: 30px;
+    display: inline-block;
+    background-color:  #404040;
+}
+.navList li a{
+    color: white;
+    background-color:  #404040;
+    text-decoration: none;
+}
+.navList li a:hover{
+    color: black;
+}
+
+.home{
+    margin: 0;
+    padding-top: 0;
+    background-color: #808080;
+    background-size: cover;
+    background-position: center
+    width: cover;
+    height: 910px;
+    text-align: left
+    
+}
+.home h1 {
+    margin:0;
+    margin-left: 350px;
+    font-size: 70px;
+    color: white;
+    background-color: #808080;
+    
+}
+.home h2{
+    margin: 0;
+    margin-left: 350px;
+    font-size: 50px;
+    color: white;
+    background-color: #808080
+}
+
+.home h3{
+    margin: 0;
+    margin-left: 350px;
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+    background-color: #808080
+}
+
+.home h4{
+    margin: 0;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #808080
+}
+
+
+
+.überMich{
+    border: 2px solid blue;
+    width: 100%;
+    height: 960px;
+    background-color:  	#606060;
+    
+}
+
+.überMich h1{
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 350px;
+    height: 170px;
+    color: white;
+    font-size: 60px;
+    background-color: #606060;
+    border: 2px solid yellow;
+}
+
+#stärken{
+    float: left;
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    margin-left:350px;
+    margin-top: 100px;
+    background-color: #606060;
+}
+
+#stärken h2{
+    float:none;
+    font-size: 20px;
+    margin-left: 0;
+    color: White;
+    font-size: 30px;
+    background-color: #606060;
+    
+}
+
+#studium{
+    float:right;
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    margin-right:350px;
+    margin-top: 100px;
+    background-color: #606060;
+}
+#studium h3{
+    float:none;
+    font-size: 20px;
+    margin-left: 0;
+    color: White;
+    font-size: 30px;
+    background-color: #606060;
+    
+}
+
+
+.überMichList{
+    color: white;
+    background-color: #606060;
+}
+
+.überMichList li{
+    background-color: #606060;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+#lebenslauf{
+    background-color: #404040;
+}
+
+#lebenslaufh1{
+    background-color: #404040;
+}
+
+.lebenslaufAbschnitt{
+    border: 2px solid green;
+    height:100px;
+    margin-bottom: 10px;
+    margin-left:350px;
+    background-color: #404040;
+    width: 1200px;
+    position: relative;
+}
+
+#abschnitt1{
+    float: none;
+    height: 200px;
+}
+
+.img{
+    border: 2px solid red;
+    height:30px;
+    width: 38px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    
+}
+
+#img1{
+    background-image: url(../img/telefon.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    
+}
+
+#img2{
+    background-image: url(../img/haus.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 30px;
+    margin-left: 5px;
+    float: 
+}
+
+#img3{
+    background-image: url(../img/standort.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#img4{
+    background-image: url(../img/email.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    height:28px;
+    margin-left: 3px;
+    margin-top: 25px;
+   
+}
+
+
+#imgBeschriftungen{
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    border: 2px solid red;
+    height: 200px;
+    width: 1000px;
+    background-color: #404040;
+    
+}
+
+.imgbeschriftung{
+    
+    color: white;
+    border: 2px solid green;
+    margin-top:0px;
+    height:30px;
+    background-color: #404040;
+    
+}
+
+#beschriftung{
+    font-size: 20px;
+}
+
+
